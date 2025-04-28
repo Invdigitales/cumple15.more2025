@@ -24,7 +24,10 @@
 </head>
 
 <body>
-  
+  <div class="preloader">
+    <img class="amor" src="./IMAGENES/cb89f9622dd8f06e44064a6eee89bd33.gif" alt="">
+   </div>
+<div>
   <div>
     <img class="portada"  src="./imagenes/PORTADA.png" alt="" srcset="">
   </div>
@@ -255,7 +258,12 @@ algún regalo podes hacerlo <br> dando click en el botón. </p>
 
 
 
-
+  <script>
+    window.addEventListener('load', () => {
+        const body = document.querySelector('body');
+        body.classList.add('loaded');
+    });
+    </script>
 
   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
